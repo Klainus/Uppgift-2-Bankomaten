@@ -1,8 +1,10 @@
-
+//import java.util.HashSet;
+//import java.util.Set;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Register {
+    //private Set<Integer> existingAccounts = new HashSet<>();
     private Map<Integer, Double> kontoSaldo = new HashMap<>();
 
     public boolean doesAccountExist(int kontoNr) {
